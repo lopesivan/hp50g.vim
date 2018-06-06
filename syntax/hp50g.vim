@@ -11,7 +11,7 @@ syn match ArrowHead contained ">" conceal cchar= ""
 syn match ArrowTail contained "\\-" conceal cchar=➜
 syn match ArrowFull "\\->" contains=ArrowHead,ArrowTail
 syn cluster cParenGroup add=ArrowTail,ArrowHead
-hi conceal ctermfg=DarkBlue ctermbg=none guifg=DarkBlue guibg=none
+hi conceal ctermfg=DarkBlue ctermbg=NONE guifg=DarkBlue guibg=NONE
 
 syn match NumberUmSeteTres contained "173" conceal cchar= ""
 syn match DoubleSlash contained "\\" conceal cchar=➜
